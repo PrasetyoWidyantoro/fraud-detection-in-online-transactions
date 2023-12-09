@@ -1,6 +1,6 @@
 # Pengantar 
 
-` Dokumentasi Program : https://medium.com/@prasetyow938/fraud-detection-in-online-transactions-using-machine-learning-2489fe0f8e48
+`Dokumentasi Program`: https://medium.com/@prasetyow938/fraud-detection-in-online-transactions-using-machine-learning-2489fe0f8e48
 
 ## Cara menjalankan Script Dilokal
 
@@ -20,7 +20,8 @@
 
 ## Cara Menjalankan API
 
-- train ulang dulu untuk notebook dari 1.Data Preprartion hingg 4.Data Modeling.ipynb untuk mendapatkan modelnya, soalnya terlalu berat jika di upload
+- unzip dahulu raw datanya
+- train ulang dulu untuk notebook dari 1.Data Preprartion hingga 4.Data Modeling.ipynb untuk mendapatkan modelnya, karena sizenya terlalu besar jika diupload
 - Pastikan masuk ke folder utama program
 - ketik - `python src/api.py`
 - lalu akan dirujuk pada laman `http://127.0.0.1:8000`
